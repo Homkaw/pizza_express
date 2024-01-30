@@ -1,0 +1,58 @@
+/* FULLSCREEN */
+.full-screen{
+    width: 100%;
+    height: 920px;
+    background: url(../img/fon.jpg) no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+.title-fon{
+    color: #FFF;
+    font-family: "Montserrat Alternates";
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 300px;
+}
+
+/* ABOUT */
+
+.team-chlen{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+img{
+    max-width: 300px;
+}
+
+.text{
+    margin: 10px 50px;
+    width: 1000px;
+}
+
+.name{
+    padding-bottom: 20px;
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.prof{
+    padding-bottom: 25px;
+    color: #000;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+p{
+    color: #838383;
+    font-size: 25px;
+    font-weight: 600;
+}

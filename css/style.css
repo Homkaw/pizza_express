@@ -1,0 +1,405 @@
+/* Слайдер */
+.slider {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-left: -8px;
+    margin-top: -8px;
+}
+
+.slider .swiper {
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+}
+
+.swiper-slide img {
+    position: relative;
+    width: 100%;
+    height: 925px;
+    object-fit: cover;
+    vertical-align: middle;
+    
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next {
+    color: white;
+    
+}
+
+.swiper .swiper-button-prev {
+    margin-left: 800px;
+    margin-top: 350px;
+}
+.swiper .swiper-button-next {
+    margin-right: 800px;
+    margin-top: 350px;
+}
+
+.swiper .swiper-wrapper .tekst1 {
+    position: absolute;
+    width: 900px;
+    height: 40px;
+    left: 100px;
+    top: 250px;
+    color: #fff;
+    font-family: "Montserrat Alternates";
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 70px;
+}
+
+.swiper .swiper-wrapper .tekst2 {
+    position: absolute;
+    width: 700px;
+    height: 40px;
+    left: 100px;
+    top: 480px;
+    color: #BDBDBD;
+    font-size: 20px;
+}
+
+
+
+.swiper .swiper-wrapper .pomoshch__v__vybore {
+    position: absolute;
+    width: 800px;
+    height: 10px;
+    left: 100px;
+    top: 600px;
+    border-radius: 15px;
+}
+
+.swiper .swiper-wrapper .tekst3 {
+    position: absolute;
+    width: 700px;
+    height: 40px;
+    left: 110px;
+    top: 750px;
+    line-height: 26px;
+    color: rgb(255, 255, 255);
+    font-family: "Inter";
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.zakaz{
+    color: #FFF;
+
+    font-family: Inder;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    border-radius: 60px;
+    background: #F24E1E;
+    padding: 20px 120px;    
+}
+
+.prom{
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 60px;
+    padding: 18px 30px;
+    font-family: 'Inder';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-left: 5px;
+    color: #fff;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    rgb(255, 255, 255);
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    rgb(255, 255, 255);
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    rgb(255, 255, 255);
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    rgb(255, 255, 255);
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    rgb(255, 255, 255);
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color:    rgb(255, 255, 255);
+}
+
+
+.swiper .swiper-wrapper .line{
+    width: auto;
+    height: auto;
+    margin: 0 15px;
+}
+
+
+/* Меню */
+.menu{
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 900px;
+}
+
+.title{
+    margin: 30px 0;
+    color: #000000;
+    font-family: "Inter";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.button{
+    width: auto;
+}
+
+section div .nav__menu{
+    border-radius: 60px;
+    border: 2px solid #000000;
+    padding: 10px 20px;
+    font-size: 25px;
+    background-color: transparent;
+    margin-bottom: 20px;
+    
+}
+
+section div .nav__menu:hover{
+    outline: #F24E1E 3px solid;
+    border: 0px
+    
+}
+
+section div .nav__menu+.nav__menu{
+    margin-left: 10px;
+}
+
+.cards{
+    margin: 20px 0;
+    display: flex;
+}
+
+.card{
+    border-radius: 60px;
+    background-color: #FFF;
+    width: 395px;
+    max-height: 730px;
+    margin: 0 10px;
+}
+
+.pizza{
+    border-radius: 60px;
+}
+h3{
+    color: #000;
+    font-family: "Inter";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px 30px;
+}
+
+.piz{
+    padding: 0 30px;
+    color: #716F6F;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 305px;
+}
+
+.zena{
+    margin-top: 20px;
+    padding: 0 30px;
+    color: #F24E1E;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.size{
+    font-size: 25px;
+    float: right;
+    color: #000;
+    font-weight: 400;
+}
+
+.buy{
+    padding: 15px 60px;
+    background-color: #F24E1E;
+    border-radius: 60px;
+    color: #FFF;
+    margin: 20px 30px;
+    font-size: 20px;
+
+}
+
+section div .strelka{
+    margin-top: 3px;
+}
+
+/* Как получить? */
+
+.kakpol{
+    background: url('../img/fon2.png') no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 920px;
+}
+
+.title-slide{
+    color: #FFF;
+    font-family: "Montserrat Alternates";
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 100px 0;
+}
+
+.kak{
+    display: flex;
+    margin-top: 200px;
+}
+.chislo{
+    min-width: 236px;
+    max-width: 236px;
+}
+
+.kak-give{
+    display: flex;
+}
+
+.kak-give-text{
+    width: 400px;
+}
+
+.title-kak{
+    color: #FFF;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    padding: 40px 10px;
+}
+
+.kak-p{
+    color: #C1C0C0;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    padding: 0 10px;
+}
+
+
+/* Наши преимущества */
+.our{
+    width: 100%;
+    height: 780px;
+}
+
+.pizza-img{
+    width: 500px;
+    float: right;
+} 
+
+.premeut{
+    margin-top: 100px;
+    display: flex;
+}
+
+.prems+.prems{
+    margin-left: 450px;
+}
+
+.prem{
+    display: flex;
+}
+
+.prem+.prem{
+margin-top: 100px;
+}
+
+.prem-img{
+    max-width: 50px;
+}
+
+.prem-text{
+    width: 500px;
+    padding-top: 50px;
+}
+
+.prem-text-title{
+    font-size: 50px;
+}
+
+.prem-text-title-p{
+    padding: 0 30px;
+}
+
+
+/* Доставка */
+.dostavka{
+    background: url('../img/fon2.png') no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 700px;
+    padding: 150px 0;
+}
+
+.dlu-img{
+    width:750px;
+    margin-left: 1200px;
+}
+
+
+.dost-img{
+    float: right;
+    padding: 0px 90px;
+
+}
+
+.dostavka .title-slide{
+    margin-bottom: 20px;
+    
+}
+
+.title-time{
+    color: #FFF;
+    font-family: "Montserrat Alternates";
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.dost{
+    color: #C1C1C1;
+    font-size: 25px;
+    margin: 130px 0;
+}
+
+.dostavka .buy{
+    margin: 0;
+    padding: 30px 100px;
+}
+

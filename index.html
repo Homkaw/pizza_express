@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://kit.fontawesome.com/2421f70b85.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,600&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap" rel="stylesheet">
+    <title>Главная</title>
+</head>
+<body>
+    <!-- Голова -->
+    <header>
+        <div class="container   container___header">
+            <a href="./index.html"><div class="logo">
+                <span class="log">P</span>izza <span class="log">E</span>xpress
+                <div class="podlogo">Самая лучшая пицца</div>
+            </div>
+        </a>
+        <nav class="center">
+            <ul>
+                <li><a href="./index.html">Главная</a></li>
+                <li><a href="./about.html">О нас</a></li>
+                <li><a href="./kontaks.html">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="pravo">
+            <ul>
+                <li><img src="./img/время.svg" alt="dostabka">Доставка
+                <div class="pod">9:00-22:00</div>
+                </li>
+                <li><img src="./img/call.svg" alt="call">+79608908877</li>
+            </ul>
+        </div>
+    </div>
+    </header>
+    <!-- slider -->
+    <main>
+        <section class="slider">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./img/Slider1.jpg">
+                    <h1 class=tekst1>АППЕТИТНАЯ ПИЦЦА<br> ЗА 30 МИНУТ</h1>
+                    <h1 class="tekst2">Мы приготовим, самую вкусную и горячую пиццу. <br>
+                        Доставим к вашему дому за 30 минут.
+                    </h1>
+                    <div class="pomoshch__v__vybore">
+                        <form>
+                            <input class="zakaz" value='Заказать' type="submit">
+                            <input class="prom" placeholder="Введите промокод">
+                        </form>
+                    </div>
+                    <h1 class="tekst3">Моцарелла<span class="zena"><img src="./img/Line.svg" alt="-" class="line">35см 750руб</span></h1>
+                </div>    
+            
+               
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+            <script>
+                const swiper = new Swiper('.swiper', {
+                loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            });
+            </script>
+
+        </section>
+</main>
+<!-- ___________________MENU___________________ -->
+<section class="menu">
+<div class="container">
+    <h2 class="title">Меню</h2>
+    <div class="button">
+        <button class="nav__menu">Новинки</button>
+        <button class="nav__menu">Самые популярные</button>
+        <button class="nav__menu">С грибами</button>
+        <button class="nav__menu">С мясом</button>
+        <button class="nav__menu">С курицей</button>
+        <button class="nav__menu">Острые</button>
+    </div>
+    <div class="cards">
+        <div class="card">
+            <img src="./img/card1.jpg" alt="pizza" class="pizza">
+            <h3>Пицца Капризе</h3>
+            <p class="piz">Ароматную пицца, свежеиспеченную в печи, 
+                с тонким хрустящим тестом, ароматными спелыми помидорами и нежной моцареллой, 
+                которая мягко тает на вашем языке.
+            </p>
+            <p class="zena">700 р <span class="size">60 см</span></p>
+            <button class="buy">Купить<img src="./img/strelka.svg" alt="->" class="srtelka"></button>
+        </div>
+        <div class="card">
+            <img src="./img/card2.jpg" alt="pizza" class="pizza">
+            <h3>Мясной Рэп</h3>
+            <p class="piz">Пепперони: 
+                тонко нарезанная острая колбаска, 
+                изготовленная из говядины.
+                Ветчина: нарезанная копчёная говядина.
+                <br>
+                <br>
+                <br>  
+            </p>
+            <p class="zena">400 р <span class="size">60 см</span></p>
+            <button class="buy">Купить<img src="./img/strelka.svg" alt="->" class="srtelka"></button>
+        </div>
+        <div class="card">
+            <img src="./img/card3.jpg" alt="pizza" class="pizza">
+            <h3>Пицца Фантазия</h3>
+            <p class="piz">Ароматную пицца, свежеиспеченную в печи, 
+                с тонким хрустящим тестом, ароматными спелыми помидорами и нежной моцареллой, 
+                которая мягко тает на вашем языке.
+            </p>
+            <p class="zena">1000 р <span class="size">60 см</span></p>
+            <button class="buy">Купить<img src="./img/strelka.svg" alt="->" class="srtelka"></button>
+        </div>
+        <div class="card">
+            <img src="./img/card4.jpg" alt="pizza" class="pizza">
+            <h3>Пицца Капризе</h3>
+            <p class="piz">Ароматную пицца, свежеиспеченную в печи, 
+                с тонким хрустящим тестом, ароматными спелыми помидорами и нежной моцареллой, 
+                которая мягко тает на вашем языке.
+            </p>
+            <p class="zena">700 р <span class="size">60 см</span></p>
+            <button class="buy">Купить<img src="./img/strelka.svg" alt="->" class="srtelka"></button>
+        </div>
+    </div>
+    <div class="cards">
+        <div class="card">
+            <img src="./img/card1.jpg" alt="pizza" class="pizza">
+            <h3>Пицца Капризе</h3>
+            <p class="piz">Ароматную пицца, свежеиспеченную в печи, 
+                с тонким хрустящим тестом, ароматными спелыми помидорами и нежной моцареллой, 
+                которая мягко тает на вашем языке.
+            </p>
+            <p class="zena">700 р <span class="size">60 см</span></p>
+            <button class="buy">Купить<img src="./img/strelka.svg" alt="->" class="srtelka"></button>
+        </div>
+        <div class="card">
+            <img src="./img/card2.jpg" alt="pizza" class="pizza">
+            <h3>Мясной Рэп</h3>
+            <p class="piz">Пепперони: 
+                тонко нарезанная острая колбаска, 
+                изготовленная из говядины.
+                Ветчина: нарезанная копчёная говядина.
+                <br>
+                <br>
+                <br> 
+            </p>
+            <p class="zena">400 р <span class="size">60 см</span></p>
+            <button class="buy">Купить<img src="./img/strelka.svg" alt="->" class="srtelka"></button>
+        </div>
+        <div class="card">
+            <img src="./img/card3.jpg" alt="pizza" class="pizza">
+            <h3>Пицца Фантазия</h3>
+            <p class="piz">Ароматную пицца, свежеиспеченную в печи, 
+                с тонким хрустящим тестом, ароматными спелыми помидорами и нежной моцареллой, 
+                которая мягко тает на вашем языке.
+            </p>
+            <p class="zena">1000 р <span class="size">60 см</span></p>
+            <button class="buy">Купить<img src="./img/strelka.svg" alt="->" class="srtelka"></button>
+        </div>
+        <div class="card">
+            <img src="./img/card4.jpg" alt="pizza" class="pizza">
+            <h3>Пицца Капризе</h3>
+            <p class="piz">Ароматную пицца, свежеиспеченную в печи, 
+                с тонким хрустящим тестом, ароматными спелыми помидорами и нежной моцареллой, 
+                которая мягко тает на вашем языке.
+            </p>
+            <p class="zena">700 р <span class="size">60 см</span></p>
+            <button class="buy">Купить<img src="./img/strelka.svg" alt="->" class="srtelka"></button>
+        </div>
+
+    </div>
+
+</div>
+</section> 
+<!-- ___________________Как получить?___________________ -->
+<div class="kakpol">
+    <div class="container">
+    <h1 class="title-slide">Как получить свою пиццу?</h1>
+    <div class="kak">
+    <div class="kak-give">
+    <img src="./img/1.svg" alt="1" class="chislo">
+    <div class="kak-give-text">
+    <h2 class="title-kak">Сделайте заказ</h2>
+    <br>
+    <br>
+    <p class="kak-p">Выберите пиццу и <br> звоните нам <span>номер</span></p>
+</div>
+    </div>
+    <div class="kak-give">
+        <img src="./img/2.svg" alt="2" class="chislo">
+        <div class="kak-give-text">
+        <h2 class="title-kak">Оплатите заказ</h2>
+        <br>
+        <br>
+        <p class="kak-p">Оплата на месте или <br> переводом.</p>
+    </div>
+        </div>
+        <div class="kak-give">
+            <img src="./img/3.svg" alt="3" class="chislo">
+            <div class="kak-give-text">
+            <h2 class="title-kak">Ожидайте курьера <br>или забирайте сами</h2>
+            <p class="kak-p">Можете выбрать как<br> будете получать<br> пиццу.</p>
+        </div>
+            </div>
+</div>
+</div>
+</div>  
+
+<!-- НАШИ ПРЕИМУЩЕСТВА -->
+<div class="our">
+    <img src="./img/pizza.svg" alt="pizza" class="pizza-img">
+    <div class="container">
+    <h1 class="title">наши преимущества</h1>
+    <div class="premeut">
+    <div class="prems">
+        <div class="prem">
+            <img src="./img/galka.svg" alt="galka" class="prem-img">
+            <div class="prem-text">
+                <h3 class="prem-text-title">Тесто</h3>
+                <p class="prem-text-title-p">У него особый рецепт. <br>
+                    Мы контролируем качество.</p>
+            </div>
+        </div>
+        <div class="prem">
+            <img src="./img/galka.svg" alt="galka" class="prem-img">
+            <div class="prem-text">
+                <h3 class="prem-text-title">Начинка</h3>
+                <p class="prem-text-title-p">Есть два правила вкусной начинки: <br>
+                    не экономить на начинке, соблюдать режим хранения.</p>
+            </div>
+        </div>
+        
+    </div>
+    <div class="prems">
+        <div class="prem">
+            <img src="./img/galka.svg" alt="galka" class="prem-img">
+            <div class="prem-text">
+                <h3 class="prem-text-title">Томатный соус</h3>
+                <p class="prem-text-title-p">Мы сами готовим томатный соус. <br>
+                    Только из свежих томатов.</p>
+            </div>
+        </div>
+        <div class="prem">
+            <img src="./img/galka.svg" alt="galka" class="prem-img">
+            <div class="prem-text">
+                <h3 class="prem-text-title">Моцарелла</h3>
+                <p class="prem-text-title-p">Сыр в пицце - ключевой ингредиент. <br>
+                    Мы используем настоящую моцареллу.</p>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+</div> 
+<!-- ___________________________Доставка_________________________ -->
+<div class="dostavka">
+    <div class="container">
+        <div class="dlu-img">
+    <img src="./img/kurier.svg" alt="kurier" class="dost-img">
+    </div>
+    <h1 class="title-slide">Доставка осуществляется</h1>
+    <h2 class="title-time">С 9:00 ДО 22:00</h2>
+    <p class="dost">Не забывайте! про нашу акцию скидки в день рождения 15%, за 3 дня до <br>
+        и за 3 дня после праздника включительно</p>
+        <button class="buy">Заказать <img src="./img/strelka.svg" alt="->"></button>
+        
+</div>
+</div>
+
+<!-- ______________________ПОДВАЛ_______________________ -->
+<footer>
+    <div class="container container-footer">
+    <a href="./index.html"><div class="logo">
+        <span class="log">P</span>izza <span class="log">E</span>xpress
+        <div class="podlogo">Самая лучшая пицца</div>
+    </div>
+</a>
+    <nav class="center">
+        <ul>
+            <li><a href="./index.html">Главная</a></li>
+            <li><a href="./about.html">О нас</a></li>
+            <li><a href="./kontaks.html">Контакты</a></li>
+        </ul>
+    </nav>
+    <nav class="pravo">
+        <a href="/">Политика кондефициальности</a>
+    </nav>
+</div>
+</footer>
+</body>
+</html>

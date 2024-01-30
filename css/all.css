@@ -1,0 +1,178 @@
+/* сброс стилей */
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+ul, ul li {
+	list-style: none;
+}
+/* Reset and base styles */
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+
+/* общие стили */
+body{
+    background-image: url(../img/fon.png);
+    font-family:"Inter";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container{
+    width: 100%;
+    padding: 25px 100px;
+}
+
+.title{
+    margin: 30px 0;
+    color: #000000;
+    font-family: "Inter";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+/* header */
+
+.container___header{
+    display: inline-flex;
+}
+header{
+    box-sizing: border-box;
+    padding-top: 10px;
+    width: 100%;
+    z-index: 1000;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    width: 210px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: normal;
+    color: #FFF;
+}
+span {
+    color: #F24E1E;
+}
+.podlogo{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: lowercase;
+}
+
+nav{
+    float: left;
+    padding-top: 8px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center ul{
+    display: flex;
+    gap: 20px;
+    padding: 0 400px;
+}
+
+.center li{
+    width: auto;
+}
+
+.center li+li{
+    padding-left: 20px;
+}
+
+.center a{
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.pravo{
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 600;
+    position: absolute;
+    right: 100px;
+}
+
+.pravo ul{
+    display: flex;
+    gap: 20px;
+    float: right;
+}
+
+.pravo li{
+    padding: 0 20px;
+}
+
+.pravo img{
+    padding-right: 10px;
+}
+.pod{
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: lowercase;
+}
+
+/* Подвал */
+footer{
+    width: 100%;
+    height: 130px;
+    background-color: #000;
+}
+
+.container-footer{
+    display: flex;
+}
+
+footer div{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+footer .logo{
+    margin-top: 10px;
+}
+
+footer .center{
+    margin-left: 50px;
+    margin-top: 28px;
+    padding-top: 0;
+}
+
+footer .pravo{
+    margin-top: 20px;
+    float: right;
+}
+
+footer .pravo a{
+    color: #FFF;
+    text-decoration: underline;
+}
